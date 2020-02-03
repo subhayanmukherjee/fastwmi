@@ -5,3 +5,8 @@ Injury to the white matter regions in infant brains may serve as early predictor
 Please cite the below [paper](https://doi.org/10.1007/s11517-018-1829-9) if you use the code in its original or modified form:
 
 *S. Mukherjee, I. Cheng, S. Miller, T. Guo, V. Chau, and A. Basu, “A fast segmentation-free fully automated approach to white matter injury detection in preterm infants,” Medical & Biological Engineering & Computing, vol. 57, no. 1, pp. 71–87, Jul. 2018.*
+
+# Guidelines
+
+1. [final_journal.m](https://github.com/subhayanmukherjee/fastwmi/blob/master/final_journal.m) is the per-slice WMI detection code. This is referred to as "coarse detection" in the [paper](https://doi.org/10.1007/s11517-018-1829-9).
+2. [combine_journal.m](https://github.com/subhayanmukherjee/fastwmi/blob/master/final_journal.m) combines detection results from adjacent slices by calling [final_journal.m](https://github.com/subhayanmukherjee/fastwmi/blob/master/final_journal.m) on each slice and integrating the results.  This is referred to as "coarse detection" in the [paper](https://doi.org/10.1007/s11517-018-1829-9).
