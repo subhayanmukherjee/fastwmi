@@ -1,1 +1,1 @@
-Convert expert-annotated ground truth for each 2D DICOM slice to PNG format and place them in this folder. The annotations should be in color.
+Convert the expert-annotated ground truth for each 2D DICOM slice image to PNG format and place them in this folder. Annotations should be in color, and each ground truth image should be registered with its corresponding input image.
