@@ -9,4 +9,5 @@ Please cite the below [paper](https://doi.org/10.1007/s11517-018-1829-9) if you 
 # Guidelines
 
 1. [final_journal.m](https://github.com/subhayanmukherjee/fastwmi/blob/master/final_journal.m) is the per-slice WMI detection code. This is referred to as "coarse detection" in the [paper](https://doi.org/10.1007/s11517-018-1829-9).
-2. [combine_journal.m](https://github.com/subhayanmukherjee/fastwmi/blob/master/final_journal.m) combines detection results from adjacent slices by calling [final_journal.m](https://github.com/subhayanmukherjee/fastwmi/blob/master/final_journal.m) on each slice and integrating the results.  This is referred to as "coarse detection" in the [paper](https://doi.org/10.1007/s11517-018-1829-9).
+2. [combine_journal.m](https://github.com/subhayanmukherjee/fastwmi/blob/master/combine_journal.m) combines detection results from adjacent slices by calling [final_journal.m](https://github.com/subhayanmukherjee/fastwmi/blob/master/final_journal.m) on each slice, followed by [Evaluate.m](https://github.com/subhayanmukherjee/fastwmi/blob/master/Evaluate.m), and finally integrating the results.  This is referred to as "fine detection" in the [paper](https://doi.org/10.1007/s11517-018-1829-9).
+3. Please refer to the above two codes.
