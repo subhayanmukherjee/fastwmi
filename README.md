@@ -1,3 +1,3 @@
-# White Matter Injury and Periventricular Hemorrhage detection in pre-term infants' T1 MR Images
+# White Matter Injury detection in pre-term infants' T1 MR Images
 
 Injury to the white matter and periventricular regions in infant brains may serve as early predictors of developmental deficits. This project detects WMI from T1 MR images of pre-term infants, which is specially challenging due to lack of brain atlas, small size of the brain, short scan duration and their constant movement during scanning. This creates very low-resolution and extremely noisy MR images, making this project challenging. I developed the first fully automated WMI detection method that does not require brain atlas and heuristically approximates tissue segmentation, greatly reducing computation.
