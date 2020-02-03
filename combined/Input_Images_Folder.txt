@@ -1,1 +1,1 @@
- 
+Convert your 2D DICOM slices to PNG format and place them in this folder.
